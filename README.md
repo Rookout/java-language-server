@@ -1,6 +1,8 @@
 ## Rookout
 This repo creates the Java language server that is used by explorook for the Java Extension.
+
 In order to create the Java Language Server jar, `git clone` this repo and run `mvn clean package -Dmaven.test.skip=true`, make sure to `brew install maven` first.
+
 This Langserver jar is placed in our own gcloud storage.
 
 
